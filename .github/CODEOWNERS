@@ -1,0 +1,15 @@
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @henrynkoh will be requested for review when someone opens a pull request.
+*       @henrynkoh
+
+# Documentation ownership
+/docs/  @henrynkoh
+/marketing/ @henrynkoh
+
+# Core application code
+/src/   @henrynkoh
+/src/components/ @henrynkoh
+/src/app/ @henrynkoh
+/src/lib/ @henrynkoh
+/src/styles/ @henrynkoh 

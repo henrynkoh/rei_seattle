@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-secondary-900;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-semibold py-2 px-4 rounded-md shadow-sm transition duration-150 ease-in-out;
+  }
+  .btn-secondary {
+    @apply bg-secondary-100 hover:bg-secondary-200 text-secondary-800 font-semibold py-2 px-4 rounded-md shadow-sm transition duration-150 ease-in-out;
+  }
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden;
+  }
+  .investment-score {
+    @apply absolute top-2 left-2 bg-secondary-800 text-white py-1 px-3 rounded-full text-xs font-semibold z-20 flex items-center;
+  }
+  .investment-metric {
+    @apply flex justify-between items-center mb-1;
+  }
+  .metric-label {
+    @apply text-secondary-600;
+  }
+  .metric-value {
+    @apply font-medium text-primary-700;
+  }
+  .metric-bar {
+    @apply w-full bg-secondary-200 rounded-full h-2;
+  }
+  .metric-fill {
+    @apply bg-primary-500 h-2 rounded-full;
+  }
+}
+
+/* Custom styles can go here */ 
